@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+img {
+  display: block;
+}
+
+ul,
+li,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+i {
+  font-style: normal;
+}
+
+.logTop {
+  display: flex;
+  justify-content: space-between;
+  height: 13.33333vw;
+  line-height: 13.33333vw;
+  font-size: 4vw;
+}
+
+.logTop span:nth-child(1) {
+  padding-left: 4vw;
+}
+
+.logTop span:nth-child(2) {
+  padding-right: 4vw;
+}
+
+.modeSlete {
+  display: flex;
+  justify-content: space-around;
+  height: 26.66667vw;
+  line-height: 26.66667vw;
+  font-size: 5.06667vw;
+}
+
+.modeSlete .modeSleteAct {
+  color: #669933;
+}
+
+.other {
+  margin-top: 22.13333vw;
+  text-align: center;
+  font-size: 4vw;
+  color: #999;
+}
+
+figure {
+  text-align: center;
+  margin-top: 6.66667vw;
+}
+
+figure #img {
+  font-size: 8vw;
+  color: #43cf43;
+}
+
+figure .wx {
+  margin-top: 2.66667vw;
+  color: #666666;
+  font-size: 4.26667vw;
+}
+
+.bon {
+  text-align: center;
+  margin-top: 8vw;
+  color: #999;
+  font-size: 3.2vw;
+}
+
+.bon a {
+  color: #43cf43;
+}
+
+.buttons {
+  width: 85.33333vw;
+  height: 13.33333vw;
+  border-radius: 13.33333vw;
+  border: 0;
+  margin-top: 10.66667vw;
+  background: #43cf43;
+  margin-left: 7.33333vw;
+}
+
+.findpas {
+  display: flex;
+  justify-content: space-between;
+}
+
+.findpas span {
+  color: #666666;
+  font-size: 3.73333vw;
+  padding-top: 6.66667vw;
+}
+
+.findpas span:nth-child(1) {
+  padding-left: 4vw;
+}
+
+.findpas span:nth-child(2) {
+  padding-right: 4vw;
+}

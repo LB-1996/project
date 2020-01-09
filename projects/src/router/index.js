@@ -10,6 +10,7 @@ import homeItem from "../pages/home"
 import mineItem from "../pages/mine"
 import classifyItem from "../pages/classify"
 import cartItem from "../pages/cart"
+import logrenItem from "../pages/logRen"
 
 // 4. 实例化router并配置参数:路由规则
 let router = new VueRouter({
@@ -40,6 +41,10 @@ let router = new VueRouter({
             name: 'mine',
             path: '/mine',
             component: mineItem
+        }, {
+            name: 'logren',
+            path: '/logren',
+            component: logrenItem,
         }
     ]
 });

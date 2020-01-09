@@ -1,0 +1,130 @@
+@function vw($px) {
+    @return ($px / 750) *100vw;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; //怪异盒模型
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    display: flex; //弹性盒模型
+    flex-direction: column; //y轴排序方向
+}
+
+img {
+    display: block;
+}
+
+ul,
+li,
+ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+i {
+    font-style: normal;
+}
+
+.logTop {
+    display: flex;
+    justify-content: space-between;
+    height: vw(100);
+    line-height: vw(100);
+    font-size: vw(30);
+
+    span:nth-child(1) {
+        padding-left: vw(30);
+    }
+
+    span:nth-child(2) {
+        padding-right: vw(30);
+    }
+}
+
+.modeSlete {
+    display: flex;
+    justify-content: space-around;
+    height: vw(200);
+    line-height: vw(200);
+    font-size: vw(38);
+
+    .modeSleteAct {
+        color: #669933;
+    }
+}
+
+
+
+.other {
+    margin-top: vw(166);
+    text-align: center;
+    font-size: vw(30);
+    color: #999;
+}
+
+figure {
+    text-align: center;
+    margin-top: vw(50);
+
+    #img {
+        font-size: vw(60);
+        color: #43cf43;
+    }
+
+    .wx {
+        margin-top: vw(20);
+        color: #666666;
+        font-size: vw(32);
+    }
+}
+
+.bon {
+    text-align: center;
+    margin-top: vw(60);
+    color: #999;
+    font-size: vw(24);
+
+    a {
+        color: #43cf43;
+    }
+}
+
+.buttons {
+    width: vw(640);
+    height: vw(100);
+    border-radius: vw(100);
+    border: 0;
+    margin-top: vw(80);
+    background: #43cf43;
+    margin-left: vw(55);
+}
+
+.findpas {
+    display: flex;
+    justify-content: space-between;
+
+    span {
+        color: #666666;
+        font-size: vw(28);
+        padding-top: vw(50);
+    }
+
+    span:nth-child(1) {
+        padding-left: vw(30);
+    }
+
+    span:nth-child(2) {
+        padding-right: vw(30);
+    }
+}
